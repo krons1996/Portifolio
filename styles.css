@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h2 {
+    text-align: center;
+}
+#fotogit {
+    padding: 1em;
+    border-radius: 100%;
+    width: 30vw;
+    
+}
+#navt, #navh, #navsm, #navha,#navcc, #navp{
+    color: white;
+}
+.card {
+     margin-left: 10px;
+     width: 10rem;
+     text-align: center;
+}
+/* #divhabcard {
+    display: inline-block;
+} */
+
+
