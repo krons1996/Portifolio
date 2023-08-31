@@ -5,6 +5,8 @@
 h2 {
     text-align: center;
 }
+
+
 #fotogit {
     padding: 1em;
     border-radius: 100%;
@@ -14,6 +16,18 @@ h2 {
 #navt, #navh, #navsm, #navha,#navcc, #navp{
     color: white;
 }
+#inicioid{
+    background-repeat: no-repeat;
+    background-image: url("imagens/teclado.jpg");
+    background-size: 100vw;
+}
+    
+#ihab{
+    background-image: url("imagens/notbook.jpg");
+    background-repeat: no-repeat;
+    background-size: 100vw;
+}
+
 .card {
      margin-left: 10px;
      width: 10rem;
