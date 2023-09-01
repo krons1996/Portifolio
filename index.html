@@ -9,90 +9,101 @@
     <link href="styles.css" rel="stylesheet" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Handjet:wght@100;200;300;400;500;600;700;800;900&display=swap');
+    </style>
 </head>
 
+
 <body>
-    <nav class="navbar navbar-expand-lg bg-dark">
-        <div class="container-fluid">
-            <a id="navt" class="navbar-brand" href="#">Ítalo Gadelha</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a id="navsm" class="nav-link" href="#">Sobre mim</a>
-                    </li>
-                    <li class="nav-item">
-                        <a id="navha" class="nav-link" href="#">Habilidades</a>
-                    </li>
-                    <li class="nav-item">
-                        <a id="navcc" class="nav-link" href="#">Cursos e Certificados</a>
-                    </li>
-                    <li class="nav-item">
-                        <a id="navp" class="nav-link" href="#">Projetos</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
 
-    
-    <div id="inicioid" name="inicio">
-        <img id="fotogit" nome="fotogit" src="https://www.github.com/krons1996.png" alt="Minha foto">
-        <spam class="display-7">Olá! Me chamo Ítalo Matheus Gadelha dos Anjos.
-            Seja bem-vindo ao meu portifólio!</spam>
+    <div id="inicioid" class="inicio" name="inicio">
+        <table>
+            <tr>
+                <td><img id="fotogit" nome="fotogit" src="https://www.github.com/krons1996.png" alt="Minha foto"></td>
+                <td>
+                    <p>Olá! Me chamo <spam>Ítalo Matheus Gadelha dos Anjos</spam>.<br>
+                     Seja bem-vindo ao meu portifólio!</p>
+                </td>
+            </tr>
+
+        </table>
+
+        <spam></spam>
+        <div><br></div>
     </div>
-    
 
+<div id="iaboutme" class="aboutme">
     <h2>Sobre mim</h2>
-    <p>Possuo o título de Tecnólogo em Analise e Desenvolvedor de Sistemas, com experiência acadêmica em todo o ciclo de
+    <p>Sou Desenvolvedor Web e Administrador de Banco de Dados. Possuo o título de Tecnólogo em Analise e Desenvolvedor
+        de Sistemas, com experiência acadêmica em todo o ciclo de
         desenvolvimento de software, sempre entusiasmado no aperfeiçoamento profissional e com anseio de agregar novas
         experiências na área afim.</p>
+    <div><br></div>
+
+</div>
+
 
     <div id="ihab">
         <h2>Habilidades</h2>
-        <div class="container-fluid d-flex flex-wrap" >
+        <div class="container-fluid d-flex flex-wrap">
             <div class="card border-danger">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" class="card-img-top" " alt="...">
-                <div class="card-body" >
-                    <p class="card-text">HTML5
-                    </p>
-                </div>
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
+                    class="card-img-top" " alt=" ...">
             </div>
             <div class="card border-warning">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <p class="card-text">CSS3</p>
-                </div>
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
+                    class="card-img-top" alt="...">
             </div>
             <div class="card border-success">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <p class="card-text">JavaScript</p>
-                </div>
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+                    class="card-img-top" alt="...">
             </div>
             <div class="card border-success">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <p class="card-text">React.js</p>
-                </div>
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+                    class="card-img-top" alt="...">
             </div>
             <div class="card border-success">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <p class="card-text">MySQL</p>
-                </div>
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg"
+                    class="card-img-top" alt="...">
+            </div>
+            <div class="card border-success">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-plain.svg" class="card-img-top"
+                    alt="...">
             </div>
 
-
-            
         </div>
+        <div><br></div>
 
     </div>
 
     <h2>Cursos e Certificados</h2>
+    <div id="carousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="10000">
+                <img src="imagens/reactjscertif.png" class="d-block w-100" alt="certificadoreact">
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+                <img src="imagens/azurecertif.png" class="d-block w-100" alt="certificadoazure">
+            </div>
+            <div class="carousel-item">
+                <img src="imagens/phpcertif.png" class="d-block w-100" alt="certificadophp">
+            </div>
+            <div class="carousel-item">
+                <img src="imagens/reactcjscertif.png" class="d-block w-100" alt="certificadoreactcomjs">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <div><br></div>
+
 
     <h2>Contate-me</h2>
 

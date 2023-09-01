@@ -10,29 +10,56 @@ h2 {
 #fotogit {
     padding: 1em;
     border-radius: 100%;
-    width: 30vw;
-    
+    width: 30px;
+    opacity: 1;    
 }
+
 #navt, #navh, #navsm, #navha,#navcc, #navp{
     color: white;
 }
-#inicioid{
+.inicio{
     background-repeat: no-repeat;
-    background-image: url("imagens/teclado.jpg");
-    background-size: 100vw;
+    background: url("imagens/teclado.jpg");
+    background-size: 100vw; 
+    position: relative;
+    display: flex;
+    font-size: 2.5vw;
+    font-weight: bold;
 }
-    
+
+#fotogit {
+    padding: 1em;
+    border-radius: 100%;
+    width: 30vw;
+    opacity: 1;    
+}
+#carousel{
+    width: 60vw;
+    margin: auto;
+}   
 #ihab{
     background-image: url("imagens/notbook.jpg");
     background-repeat: no-repeat;
     background-size: 100vw;
+    margin-bottom: 10px;
 }
-
+.aboutme{
+    background: url("imagens/bc-about-me.jpg");
+    background-repeat: no-repeat;
+    background-size: 250vw;
+}
 .card {
      margin-left: 10px;
-     width: 10rem;
+     width: 10vw;
      text-align: center;
+     margin: auto;
 }
+p, h1, h2 {
+    font-family: 'Handjet', cursive;
+    margin-left: 1vw;
+}
+
+
 /* #divhabcard {
     display: inline-block;
 } */
